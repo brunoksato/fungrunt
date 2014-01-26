@@ -1,13 +1,22 @@
 {
   "name": "fungrunt",
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "description": "this is project example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/brunoksato/fungrunt.git"
   },
+  "author": "Bruno Sato",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/brunoksato/fungrunt/issues"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-uglify": "~0.2.2"
+    "grunt-contrib-jshint": "~0.8.0"
   }
+}
